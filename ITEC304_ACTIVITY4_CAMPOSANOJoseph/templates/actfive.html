@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro/4cac1a6/css/all.css">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'css/styles.css')}}">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbutton">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo"><img src="{{url_for('static', filename='assets/Logo%20Gray.svg')}}" alt="Jajja!"></label>
+    <ul>
+      <li><a href="#">Tjänster</a></li>
+      <li><a href="#">Kunder</a></li>
+      <li><a href="#">Nyheter</a></li>
+      <li><a href="#">Karriär</a></li>
+      <li><a href="#">Om oss</a></li>
+      <li><a class="active" href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <main>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 spacing women-image">
+                  <img src="{{url_for('static', filename='assets/two_women.png')}}" class="two-wm" alt="Two-women-holding-a-Balloons">
+              </div>
+              <div class="col-md-6 col-sm-12 spacing website-title">
+                  <h3 class="text1">Hallå där 👋</h3>
+                  <h2 class="text2">Vi driver rätt trafik till din webbplats.</h2>
+                  <div class="site-button">
+                      <div class="d-flex flex-row flex-wrap">
+                          <button type="button" class="lasmerbtn button secondary-button mr-4">Läs mer</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+  <div class="middle">
+        <div class="container">
+                <div class="row2">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="sahar">Så här jobbar vi</p>
+                        <h2 class="text3">Med hjälp av SEO, SEM och SMA <br> får du rätt trafik till din webbplats</h2>
+                    </div>
+                </div>
+             </div>
+
+          <div class="card-area">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md col-sm text-wrap">
+                            <div class="card1">
+                                <div class="card-img text-justify">
+                                    <img src="{{url_for('static', filename='assets/Imgseo-icon.svg')}}" alt="Search">
+                                </div>
+                                <div class="card-body text-justify">
+                                    <h5 class="card-title">SEO</h5>
+                                    <p class="card-text1 text-secondary">
+                                        Din målgrupp måste hitta din webbplats på Google om du ska få rätt resultat
+                                    </p>
+                                     <ul class="card-text2 text-tertiary">
+                                            <li><i class="fas fa-angle-right"></i><a href="#">Google Ads Sök</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#">Google Ads Display</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#">Goolge Ads</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-sm text-wrap">
+                            <div class="card2">
+                                <div class="card-img text-justify">
+                                    <img src="{{url_for('static', filename='assets/Imgsem-icon.svg')}}" alt="Bag">
+                                </div>
+                                <div class="card-body text-justify">
+                                    <h5 class="card-title">SEM</h5>
+                                    <p class="card-text1 text-secondary">
+                                      Lönsam och effektiv annonsering med Google Ads ger dig rätt resultat
+                                    </p>
+                                    <ul class="card-text2 text-tertiary">
+                                         <li><i class="fas fa-angle-right"></i><a href="#">Teknisk optimerad sajt</a></li>
+                                         <li><i class="fas fa-angle-right"></i><a href="#">Innehåll på sajten</a></li>
+                                         <li><i class="fas fa-angle-right"></i><a href="#">Länkkraft</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-sm text-wrap">
+                            <div class="card3">
+                                <div class="card-img text-justify">
+                                    <img src="{{url_for('static', filename='assets/Imgsma-icon.svg')}}" alt="Message">
+                                </div>
+                                <div class="card-body text-justify">
+                                    <h5 class="card-title">SMA</h5>
+                                    <p class="card-text1 text-secondary">
+                                      Annonsera i sociala medier med rätt verktyg för att nå din målgrupp och få resultat
+                                    </p>
+
+                                    <ul class="card-text2 text-tertiary">
+                                    <li><i class="fas fa-angle-right"></i><a href="#">Facebook</a></li>
+                                    <li><i class="fas fa-angle-right"></i><a href="#">Instagram</a></li>
+                                    <li><i class="fas fa-angle-right"></i><a href="#">LinkedIn</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kakampink">
+      <div class="container">
+           <div class="row">
+              <div class="col-md-12 col-sm-12">
+                  <h4 class="text4">Organisk och köpt trafik kompletterar varandra</h4>
+                  <ul class="saharjobbar">
+                      <li><i class="fas fa-angle-right"></i><a href="#">Så här jobbar vi</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="site-logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="top">Kunder</p>
+                        <h2 class="text5">Ett urval av kunder som vi
+                            <br>jobbar eller har jobbat med</h2>
+                        <p class="text6">Läs mer om våra kunder</p>
+                    </div>
+                </div>
+
+                <div class="row3">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company">
+                        <img src="{{url_for('static', filename='assets/logoGoogle.png')}}" alt="Google">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company">
+                        <img src="{{url_for('static', filename='assets/logoNetflix.png')}}" alt="Netflix">
+                        </div>
+                     </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company">
+                        <img src="{{url_for('static', filename='assets/logoSpotify.png')}}" alt="Spotify">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company">
+                        <img src="{{url_for('static', filename='assets/logoRevo.png')}}" alt="Revolut">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                        <div class="company1">
+                        <img src="{{url_for('static', filename='assets/logoAir.png')}}" alt="Airbnb">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company1">
+                        <img src="{{url_for('static', filename='assets/logoUber.png')}}" alt="Uber">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company1">
+                        <img src="{{url_for('static', filename='assets/logoHM.png')}}" alt="H&M">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="company1">
+                        <img src="{{url_for('static', filename='assets/logoFacebook.png')}}" alt="Facebook">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <div class="down">
+            <div class="container">
+                <div class="row4">
+
+                    <div class="col-md-6 col-sm-12 mt-5 hangmed">
+                            <div class="col-md-12 col-sm-12 mt-5">
+                        <p class="para1">Häng med!</p>
+                        <h2 class="para1">Väx och må <br> bra med oss</h2>
+                        </div>
+                            <div class="para">
+                        <p>Vi vill att alla människor och företag ska blomstra. Vår ambition är att alla som jobbar på Jajja ska må bra, utvecklas och lyckas. Samma saker gäller alla som vi kommer i kontakt med. Vi blir riktigt lyckliga av att vara med och hjälpa våra kunder att växa.</p>
+                    </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12">
+                        <img src="{{url_for('static', filename='assets/sitting.png')}}" alt="Two People on the Couch" style="width : 50%; height: auto;">
+                    </div>
+        </div>
+     </div>
+    </div>
+
+    <div class="downdown">
+    <div class="container">
+                <div class="row6">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="para2 mt-5">Aktuellt</p>
+                        <h2 class="text7">Allt från Jajja!</h2>
+                    </div>
+
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 mt-2">
+                       <ul class="navi">
+                            <li class="nav-item2">
+                              <a class="nav-link active" href="#">Allt</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Bolaget</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Kunskap</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Kunder</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+
+         <div class="card-area">
+                <div class="container card-list">
+                    <div class="row g-4 mt-4 mb-5">
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                <div class="inner">
+                                <img class="card-img" src="{{url_for('static', filename='assets/trio.png')}}" alt="trio">
+                                </div>
+                                <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                <div class="inner">
+                                   <img class="card-img" src="{{url_for('static', filename='assets/anim.png')}}" alt="anim">
+                                </div>
+                                   <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                        </div>
+                       </div>
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                 <div class="inner">
+                                <img class="card-img" src="{{url_for('static', filename='assets/squad.png')}}" alt="squad">
+                                 </div>
+                                <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                        </div>
+                </div>
+            </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                <div class="inner">
+                                   <img class="card-img" src="{{url_for('static', filename='assets/trio.png')}}" alt="trio">
+                                </div>
+
+                                    <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                <div class="inner">
+                                  <img class="card-img" src="{{url_for('static', filename='assets/anim.png')}}" alt="anim">
+                                </div>
+
+                                    <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                        </div>
+                       </div>
+                        <div class="col-md col-sm">
+                            <div class="card">
+                                <div>
+                                  <img class="card-img" src="{{url_for('static', filename='assets/squad.png')}}" alt="squad">
+                                </div>
+                                    <div class="card-body">
+                                        <p class="para3 mt-4">Bolaget</p>
+                                        <h5 class="para4">Möt vårt produktions team</h5>
+                                        <p class="para5">Donec massa libero, condimentum pretium <br> venenatis sit amet. <br> Integer sit amet luctus.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+
+<div class="last">
+    <div class="container">
+                     <div class="row">
+                      <div class="col-md-10 col-sm-12">
+                        <div class="text">
+                         <h2 class="para6">Vill du ha rätt trafik <br> till din webbplats?</h2>
+                        <p class="para7">Kontakta mig på gunnar.bark@jajja.com eller 0730-28 98 99 </p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                         <div class="image"><img  src="{{url_for('static', filename='assets/director.png')}}" alt="The Developer Picture"></div>
+                      </div>
+                </div>
+               </div>
+                <div class="container last-container">
+                <div class="row">
+
+                    <div class="col-md-2 col-sm-12 column">
+                        <p class="para8">Stockholm</p>
+                        <p class="para9">Vasagatan 28 <br>
+                        111 20 Stockholm</p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 column">
+                        <p class="para8">Karlstad</p>
+                        <p class="para9" style="margin-left: -100px;">Tynäsgatan 10 <br>
+                         652 16 Karlstad</p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 column">
+                        <p class="para8">Dubai</p>
+                        <p class="para9" style="margin-left: -78px;">Tynäsgatan 10 <br>
+                        652 16 Karlstad</p><br>
+                    </div>
+
+                </div>
+                </div>
+
+
+                <hr class="solid">
+
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                      <div class="lastlast">
+                        <p class="para10">© 2021 Jajja Media Group AB <br>
+                        Den här sidan innehåller cookies.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+
+</body>
+</html>

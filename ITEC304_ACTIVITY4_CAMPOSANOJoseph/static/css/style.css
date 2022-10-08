@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+.progress-title{
+  width: 100%;
+  height: auto;
+}
+.progress-title h3{
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff;
+  margin: auto;
+}
+p{
+  font-size: 15px;
+}
+.progress{
+  height: 12px;
+  width: 100%;
+  background: #1C6EA4;
+  background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+  background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 2px 2px #000;
+  margin: auto;
+  overflow: visible;
+  position: relative;
+}
+.progress-td{
+  width: 100%;
+}
+.progress .progress-bar{
+  height: 10px;
+  border-radius: 20px;
+  border: 1px solid orange;
+}
+.column-left {
+  float: left;
+  align-content: center;
+  width: 30%;
+  padding: 10px;
+  height: 1080px;
+  background: #1C6EA4;
+  background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+  background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+}
+.column-right {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 1080px;
+  background-color:whitesmoke;
+}
+.cv-container {
+  max-width: 960px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;;
+  clear: both;;
+}
+i.ico-color{
+  color: orange;
+  font-size: 30px;
+}
+i.ico-con{
+  color: orange;
+  font-size: 20px;
+}
+img.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+}
+img.icon{
+  color: whitesmoke;
+  float: left;
+  margin-left: auto;
+  padding: 1.5px;
+  margin-right: auto;
+}
+table.ref{
+
+}
+h3.ref, h3.eb, h3.pi{
+  color: black;
+  font-family: fantasy;
+  font-weight: 100;
+  background: darkgray;
+  border-radius: 7px;
+}
+h3.info{
+  color: black;
+  font-family: fantasy;
+  font-weight: 100;
+  background: whitesmoke;
+  border-radius: 7px;
+  text-align: center;
+}
+td.sch1, td.sch2, td.sch3{
+  width: 60%;
+}
+td.t1, td.t2{
+  width: 58.3%;
+}
+td.hob1{
+  width: 70.5%;
+  color: whitesmoke;
+}
+h2.fname{
+font-size: 35px;
+margin: 5px 0 10px;
+color: #144E75;
+}
+h2.course{
+font-size: 25px;
+margin: 10px 0 10px;
+}
+h1.lname{
+  font-size: 50px;
+  margin: 5px 0 10px;
+  color: darkgoldenrod;
+}
+hr{
+  height: 5px;
+  background: #144E75;;
+}
+a{
+  color: whitesmoke;
+}
+
+
+h1 {
+    border: 2px #eee solid;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
